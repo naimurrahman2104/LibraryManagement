@@ -4,7 +4,7 @@ Book::Book(int id, string title, string author, int count)
     : Item(id, title, count), author(author) {}
 
 void Book::display() const {
-    cout << "[Book] ID: " << id
+    cout << " [Book] ID: " << id
          << " | Title: " << title
          << " | Author: " << author
          << " | Available: " << availableCount
